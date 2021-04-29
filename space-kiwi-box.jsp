@@ -11,9 +11,11 @@
   
     org.opennms.web.console.centerUrl=/status/status-box.jsp,/space-kiwi/space-kiwi.jsp
 -->
-<div id="space-kiwi-box" class="panel panel-default">
-    <div class="panel-heading">
-        <h3 class="panel-title">Space Kiwi</h3>
+<div id="space-kiwi-box" class="card fix-subpixel">
+    <div class="card-header">
+        <span>Space Kiwi</span>
     </div>
-    <iframe src="/opennms/space-kiwi/space-kiwi.html" width="100%" height="520" frameborder="0"></iframe>
+    <div>
+        <iframe src="/opennms/space-kiwi/space-kiwi.html" width="100%" height="520" frameborder="0"></iframe>
+    </div>
 </div>
